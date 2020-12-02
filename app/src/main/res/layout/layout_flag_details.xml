@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvLabelFlagColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|start"
+        android:padding="@dimen/dp_8"
+        android:text="@string/colors_in_indian_flag"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/sp_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/dp_20"
+        android:layout_marginVertical="@dimen/dp_8"
+        android:background="@drawable/rect_box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_8">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:button="@drawable/custom_radio_button"
+            android:padding="@dimen/dp_6"
+            android:text="@string/white"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbYellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:button="@drawable/custom_radio_button"
+            android:padding="@dimen/dp_6"
+            android:text="@string/yellow"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbOrange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:button="@drawable/custom_radio_button"
+            android:padding="@dimen/dp_6"
+            android:text="@string/orange"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:button="@drawable/custom_radio_button"
+            android:padding="@dimen/dp_6"
+            android:text="@string/green"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_64"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_32"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:background="@drawable/button_ripple"
+        android:elevation="@dimen/dp_10"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18"
+        android:translationZ="@dimen/dp_8" />
+
+</LinearLayout>

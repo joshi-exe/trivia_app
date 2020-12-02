@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="answer">Answer</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="answer_colon">Answer :</string>
+    <string name="enter_your_name_here">Enter your name here</string>
+    <string name="next">Next</string>
+    <string name="who_is_best_cricketer">Who is the best cricketer in the world?</string>
+    <string name="sachin_tendulkar">Sachin Tendulkar</string>
+    <string name="virat_kohli">Virat Kohli</string>
+    <string name="adam_gilchrist">Adam Gilchrist</string>
+    <string name="jacques_kallis">Jacques Kallis</string>
+    <string name="submit">Submit</string>
+    <string name="colors_in_indian_flag">What are the colors in the Indian national flag? \nSelect all that applies:</string>
+    <string name="white">White</string>
+    <string name="yellow">Yellow</string>
+    <string name="orange">Orange</string>
+    <string name="green">Green</string>
+    <string name="history">History</string>
+    <string name="finish">Finish</string>
+    <string name="hello">Hello</string>
+    <string name="here_are_selected_answers">Here are the answers selected:</string>
+    <string name="colors_in_indian_flag_label">What are the colors in the Indian national flag?</string>
+    <string name="game">Game</string>
+    <string name="colon">:</string>
+    <string name="date_time">Date - Time</string>
+    <string name="divider">divider</string>
+    <string name="name">Name</string>
+    <string name="sample_name">Sample Name</string>
+    <string name="no_games_found">No games found.</string>
+    <string name="enter_valid_name">Enter a valid name</string>
+    <string name="select_one_option">Select at least one option</string>
+    <string name="summary">Summary</string>
+</resources>
