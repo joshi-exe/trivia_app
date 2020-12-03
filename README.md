@@ -12,10 +12,10 @@
 
 <br><br> 
 <h2>Screens: </h2><br>
- 
+
 <p align=center> 
- <img src="screens/home.jpg" width = 300/>
- <img src="screens/flag.jpg" width = 300/> </p>
+ <img src="screens/splash.jpg" width = 300/>
+ <img src="screens/home.jpg" width = 300/> </p>
 <p align=center> 
  <img src="screens/summary.jpg" width = 300/>
  <img src="screens/history.jpg" width = 300/> </p>
